@@ -1,0 +1,28 @@
+{
+  "n_rows_touching_6": 1323693,
+  "crs_dep_2400": 0,
+  "crs_arr_2400": 0,
+  "departures_dst": {
+    "nonexistent_spring_forward": 0,
+    "ambiguous_fall_back": 5,
+    "rule": "nonexistent -> posun dopredu (shift_forward); ambiguous -> letný čas (PDT, prvý výskyt)"
+  },
+  "arrivals_dst": {
+    "nonexistent_spring_forward": 0,
+    "ambiguous_fall_back": 4,
+    "rule": "nonexistent -> posun dopredu (shift_forward); ambiguous -> letný čas (PDT, prvý výskyt)"
+  },
+  "arrival_date_shift_counts": {
+    "0": 717381,
+    "1": 27875
+  },
+  "depdelay_clipped_high": 934,
+  "depdelay_clipped_low": 0,
+  "depdelay_clipped_share": 0.0012643114916980488,
+  "depdelay_max": 1527.0,
+  "depdelay_min": -49.0,
+  "cancelled_with_depdelay": 435,
+  "notcancelled_without_depdelay": 0,
+  "departures_outside_utc_year": 538,
+  "hourly_rows": 52560
+}

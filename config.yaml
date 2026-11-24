@@ -1,0 +1,68 @@
+# Spoločné parametre projektu – zmeny iba po dohode celého tímu.
+project: west-coast-flight-delays
+seed: 42
+
+# Pevné poradie uzlov – rovnaké indexy vo všetkých súboroch (os "6").
+nodes: [SEA, PDX, SFO, SJC, LAX, SAN]
+stations: {SEA: KSEA, PDX: KPDX, SFO: KSFO, SJC: KSJC, LAX: KLAX, SAN: KSAN}
+local_tz: America/Los_Angeles
+
+paths:
+  raw_weather: data/raw/WeatherEvents_Jan2016-Dec2022.csv
+  raw_flights: data/raw/flights/2018_flights_on_time.csv
+  airports: data/raw/flights/airports_lookup.csv
+  interim: data/interim
+  processed: data/processed
+  results: results
+  figures: results/figures/A
+  tables: results/tables/A
+
+period:
+  start: "2018-01-01 00:00"      # UTC, vrátane
+  end: "2018-12-31 23:00"        # UTC, vrátane -> 8 760 hodín
+  weather_load_from: "2017-12-30 00:00"   # kvôli vstupnému oknu
+  context_years: [2016, 2022]    # počasie ako kontext (typickosť roka 2018)
+
+freq_hours: 1
+
+target:
+  # y = priemerný DepDelay (min) odletov z letiska v danej hodine (CRSDepTime -> UTC).
+  # Zrušené lety sú mimo priemeru (ich podiel je príznak).
+  # Extrémy: DepDelay sa pred priemerovaním orezá na [clip_low, clip_high] (winsorizácia).
+  clip_low: -60
+  clip_high: 360
+  mask_min_departures: 3   # hodina je platná, ak má aspoň 3 uskutočnené odlety
+
+window:
+  L: 24
+  H: [1, 3, 6]
+
+# Kategórie počasia na stratifikované hodnotenie (priorita: Sneh > Hmla > Dážď silný > Dážď slabý).
+# Cold -> Jasno, Precipitation (UNK) -> Dážď slabý, Storm/Hail -> Dážď stredný/silný.
+weather_categories: ["Jasno", "Dážď slabý", "Dážď stredný/silný", "Hmla", "Sneh"]
+weather_types: [Rain, Fog, Snow, Storm, Hail, Cold, Precipitation]
+severity_map: {Light: 1, UNK: 1, Other: 1, Moderate: 2, Heavy: 3, Severe: 3}
+
+# Mriežka pre ConvLSTM/CNN-LSTM (stavia D). Bunky 1° x 1°, polootvorené intervaly.
+grid:
+  lat_min: 32
+  lat_max: 49
+  lon_min: -125
+  lon_max: -116
+  cell_deg: 1.0
+
+split:
+  gap_hours: 30          # L + max(H)
+  main:
+    train: ["2018-01-01 00:00", "2018-08-31 23:00"]
+    val:   ["2018-09-01 00:00", "2018-10-31 23:00"]
+    test:  ["2018-11-01 00:00", "2018-12-31 23:00"]
+  folds:                 # test = štvrťrok, tréning = zvyšok, validácia = posledný mesiac tréningu
+    - {name: Q1, test: ["2018-01-01 00:00", "2018-03-31 23:00"]}
+    - {name: Q2, test: ["2018-04-01 00:00", "2018-06-30 23:00"]}
+    - {name: Q3, test: ["2018-07-01 00:00", "2018-09-30 23:00"]}
+    - {name: Q4, test: ["2018-10-01 00:00", "2018-12-31 23:00"]}
+
+eval:
+  bootstrap_reps: 1000
+  ci: 0.95

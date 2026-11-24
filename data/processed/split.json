@@ -1,0 +1,114 @@
+{
+  "description": "Rozsahy sú inkluzívne indexy do časovej osi (timestamps.csv). Vzorka s posledným vstupným indexom t0 patrí do časti P, ak všetky hodiny t0-L+1 … t0+max(H) ležia v jednom rozsahu P. Medzi časťami je medzera 30 h (L + max H); z testu sa nikdy neodrezáva.",
+  "gap_hours": 30,
+  "splits": {
+    "main": {
+      "train": [
+        [
+          0,
+          5801
+        ]
+      ],
+      "val": [
+        [
+          5832,
+          7265
+        ]
+      ],
+      "test": [
+        [
+          7296,
+          8759
+        ]
+      ]
+    },
+    "Q1": {
+      "train": [
+        [
+          2190,
+          7985
+        ]
+      ],
+      "val": [
+        [
+          8016,
+          8759
+        ]
+      ],
+      "test": [
+        [
+          0,
+          2159
+        ]
+      ]
+    },
+    "Q2": {
+      "train": [
+        [
+          0,
+          2129
+        ],
+        [
+          4374,
+          7985
+        ]
+      ],
+      "val": [
+        [
+          8016,
+          8759
+        ]
+      ],
+      "test": [
+        [
+          2160,
+          4343
+        ]
+      ]
+    },
+    "Q3": {
+      "train": [
+        [
+          0,
+          4313
+        ],
+        [
+          6582,
+          7985
+        ]
+      ],
+      "val": [
+        [
+          8016,
+          8759
+        ]
+      ],
+      "test": [
+        [
+          4344,
+          6551
+        ]
+      ]
+    },
+    "Q4": {
+      "train": [
+        [
+          0,
+          5801
+        ]
+      ],
+      "val": [
+        [
+          5832,
+          6521
+        ]
+      ],
+      "test": [
+        [
+          6552,
+          8759
+        ]
+      ]
+    }
+  }
+}

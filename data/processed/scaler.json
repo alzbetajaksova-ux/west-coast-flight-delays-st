@@ -1,0 +1,525 @@
+{
+  "feature_names": [
+    "wc_jasno",
+    "wc_dazd_slaby",
+    "wc_dazd_silny",
+    "wc_hmla",
+    "wc_sneh",
+    "severity",
+    "precip_in",
+    "weather_active_frac",
+    "hours_since_event",
+    "n_sched",
+    "y_lag",
+    "y_valid",
+    "del15_share",
+    "cancel_share",
+    "n_arr",
+    "arr_delay_mean",
+    "hod_sin",
+    "hod_cos",
+    "dow_sin",
+    "dow_cos",
+    "doy_sin",
+    "doy_cos"
+  ],
+  "normalized": [
+    "severity",
+    "precip_in",
+    "weather_active_frac",
+    "hours_since_event",
+    "n_sched",
+    "y_lag",
+    "del15_share",
+    "cancel_share",
+    "n_arr",
+    "arr_delay_mean"
+  ],
+  "masked_by": {
+    "y_lag": "y_valid",
+    "del15_share": "y_valid",
+    "arr_delay_mean": "n_arr"
+  },
+  "splits": {
+    "main": {
+      "features": {
+        "wc_jasno": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_dazd_slaby": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_dazd_silny": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_hmla": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_sneh": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "severity": {
+          "mu": 0.13865908980369568,
+          "sigma": 0.4592961072921753
+        },
+        "precip_in": {
+          "mu": 0.0020737103186547756,
+          "sigma": 0.021980566903948784
+        },
+        "weather_active_frac": {
+          "mu": 0.07160365581512451,
+          "sigma": 0.2444128841161728
+        },
+        "hours_since_event": {
+          "mu": 32.025421142578125,
+          "sigma": 19.395212173461914
+        },
+        "n_sched": {
+          "mu": 14.287572860717773,
+          "sigma": 12.304247856140137
+        },
+        "y_lag": {
+          "mu": 7.620062351226807,
+          "sigma": 12.365984916687012
+        },
+        "y_valid": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "del15_share": {
+          "mu": 0.1770109236240387,
+          "sigma": 0.1549670249223709
+        },
+        "cancel_share": {
+          "mu": 0.00723361736163497,
+          "sigma": 0.0293725673109293
+        },
+        "n_arr": {
+          "mu": 14.11427116394043,
+          "sigma": 12.012385368347168
+        },
+        "arr_delay_mean": {
+          "mu": 2.5020809173583984,
+          "sigma": 18.51952362060547
+        },
+        "hod_sin": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "hod_cos": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "dow_sin": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "dow_cos": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "doy_sin": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "doy_cos": {
+          "mu": 0.0,
+          "sigma": 1.0
+        }
+      },
+      "y": {
+        "mu": 7.620062351226807,
+        "sigma": 12.365984916687012
+      }
+    },
+    "Q1": {
+      "features": {
+        "wc_jasno": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_dazd_slaby": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_dazd_silny": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_hmla": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_sneh": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "severity": {
+          "mu": 0.14199447631835938,
+          "sigma": 0.5068212151527405
+        },
+        "precip_in": {
+          "mu": 0.0014833073364570737,
+          "sigma": 0.017540056258440018
+        },
+        "weather_active_frac": {
+          "mu": 0.063988097012043,
+          "sigma": 0.23374199867248535
+        },
+        "hours_since_event": {
+          "mu": 34.34938049316406,
+          "sigma": 18.697900772094727
+        },
+        "n_sched": {
+          "mu": 14.559696197509766,
+          "sigma": 12.343801498413086
+        },
+        "y_lag": {
+          "mu": 7.585290908813477,
+          "sigma": 12.398303985595703
+        },
+        "y_valid": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "del15_share": {
+          "mu": 0.17435142397880554,
+          "sigma": 0.15153899788856506
+        },
+        "cancel_share": {
+          "mu": 0.00617377320304513,
+          "sigma": 0.02681293897330761
+        },
+        "n_arr": {
+          "mu": 14.413187026977539,
+          "sigma": 12.228658676147461
+        },
+        "arr_delay_mean": {
+          "mu": 2.7774949073791504,
+          "sigma": 17.946128845214844
+        },
+        "hod_sin": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "hod_cos": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "dow_sin": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "dow_cos": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "doy_sin": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "doy_cos": {
+          "mu": 0.0,
+          "sigma": 1.0
+        }
+      },
+      "y": {
+        "mu": 7.585290908813477,
+        "sigma": 12.398303985595703
+      }
+    },
+    "Q2": {
+      "features": {
+        "wc_jasno": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_dazd_slaby": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_dazd_silny": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_hmla": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_sneh": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "severity": {
+          "mu": 0.1942702829837799,
+          "sigma": 0.571660041809082
+        },
+        "precip_in": {
+          "mu": 0.0025401574093848467,
+          "sigma": 0.025539178401231766
+        },
+        "weather_active_frac": {
+          "mu": 0.09207109361886978,
+          "sigma": 0.2748139798641205
+        },
+        "hours_since_event": {
+          "mu": 30.04589080810547,
+          "sigma": 20.035724639892578
+        },
+        "n_sched": {
+          "mu": 14.115348815917969,
+          "sigma": 12.177571296691895
+        },
+        "y_lag": {
+          "mu": 7.15952730178833,
+          "sigma": 12.658312797546387
+        },
+        "y_valid": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "del15_share": {
+          "mu": 0.16989925503730774,
+          "sigma": 0.15299083292484283
+        },
+        "cancel_share": {
+          "mu": 0.007019866723567247,
+          "sigma": 0.029225865378975868
+        },
+        "n_arr": {
+          "mu": 13.937681198120117,
+          "sigma": 11.942861557006836
+        },
+        "arr_delay_mean": {
+          "mu": 1.808808445930481,
+          "sigma": 18.326093673706055
+        },
+        "hod_sin": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "hod_cos": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "dow_sin": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "dow_cos": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "doy_sin": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "doy_cos": {
+          "mu": 0.0,
+          "sigma": 1.0
+        }
+      },
+      "y": {
+        "mu": 7.15952730178833,
+        "sigma": 12.658312797546387
+      }
+    },
+    "Q3": {
+      "features": {
+        "wc_jasno": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_dazd_slaby": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_dazd_silny": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_hmla": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_sneh": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "severity": {
+          "mu": 0.19794216752052307,
+          "sigma": 0.5639880299568176
+        },
+        "precip_in": {
+          "mu": 0.002973169321194291,
+          "sigma": 0.026415079832077026
+        },
+        "weather_active_frac": {
+          "mu": 0.09795577079057693,
+          "sigma": 0.2822726368904114
+        },
+        "hours_since_event": {
+          "mu": 28.709367752075195,
+          "sigma": 20.14394760131836
+        },
+        "n_sched": {
+          "mu": 13.892590522766113,
+          "sigma": 12.118172645568848
+        },
+        "y_lag": {
+          "mu": 6.83010721206665,
+          "sigma": 12.5015230178833
+        },
+        "y_valid": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "del15_share": {
+          "mu": 0.16818663477897644,
+          "sigma": 0.1541164368391037
+        },
+        "cancel_share": {
+          "mu": 0.006496818270534277,
+          "sigma": 0.027592770755290985
+        },
+        "n_arr": {
+          "mu": 13.725136756896973,
+          "sigma": 11.812517166137695
+        },
+        "arr_delay_mean": {
+          "mu": 1.5790327787399292,
+          "sigma": 17.93604850769043
+        },
+        "hod_sin": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "hod_cos": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "dow_sin": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "dow_cos": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "doy_sin": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "doy_cos": {
+          "mu": 0.0,
+          "sigma": 1.0
+        }
+      },
+      "y": {
+        "mu": 6.83010721206665,
+        "sigma": 12.5015230178833
+      }
+    },
+    "Q4": {
+      "features": {
+        "wc_jasno": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_dazd_slaby": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_dazd_silny": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_hmla": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "wc_sneh": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "severity": {
+          "mu": 0.13865908980369568,
+          "sigma": 0.4592961072921753
+        },
+        "precip_in": {
+          "mu": 0.0020737103186547756,
+          "sigma": 0.021980566903948784
+        },
+        "weather_active_frac": {
+          "mu": 0.07160365581512451,
+          "sigma": 0.2444128841161728
+        },
+        "hours_since_event": {
+          "mu": 32.025421142578125,
+          "sigma": 19.395212173461914
+        },
+        "n_sched": {
+          "mu": 14.287572860717773,
+          "sigma": 12.304247856140137
+        },
+        "y_lag": {
+          "mu": 7.620062351226807,
+          "sigma": 12.365984916687012
+        },
+        "y_valid": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "del15_share": {
+          "mu": 0.1770109236240387,
+          "sigma": 0.1549670249223709
+        },
+        "cancel_share": {
+          "mu": 0.00723361736163497,
+          "sigma": 0.0293725673109293
+        },
+        "n_arr": {
+          "mu": 14.11427116394043,
+          "sigma": 12.012385368347168
+        },
+        "arr_delay_mean": {
+          "mu": 2.5020809173583984,
+          "sigma": 18.51952362060547
+        },
+        "hod_sin": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "hod_cos": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "dow_sin": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "dow_cos": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "doy_sin": {
+          "mu": 0.0,
+          "sigma": 1.0
+        },
+        "doy_cos": {
+          "mu": 0.0,
+          "sigma": 1.0
+        }
+      },
+      "y": {
+        "mu": 7.620062351226807,
+        "sigma": 12.365984916687012
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+# Surové dáta (4,3 GB, súbory nad limitom GitHubu 100 MB) sa zdieľajú cez OneDrive.
+# Spracované dáta (data/interim, data/processed) a predikcie (results/*.npz) sú v Gite,
+# aby B, C a D mohli začať bez spúšťania spracovania.
+data/raw/
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.DS_Store

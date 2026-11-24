@@ -1,0 +1,7 @@
+letisko,stanica,lat letisko,lon letisko,lat stanica,lon stanica,vzdialenosť (km),časové pásmo stanice,"bunka mriežky (riadok, stĺpec)"
+SEA,KSEA,47.45,-122.3,47.44,-122.3,0.4752,US/Pacific,"(1, 2)"
+PDX,KPDX,45.59,-122.6,45.6,-122.6,1.176,US/Pacific,"(3, 2)"
+SFO,KSFO,37.62,-122.4,37.62,-122.4,0.8124,US/Pacific,"(11, 2)"
+SJC,KSJC,37.36,-121.9,37.36,-121.9,0.5424,US/Pacific,"(11, 3)"
+LAX,KLAX,33.94,-118.4,33.94,-118.4,2.04,US/Pacific,"(15, 6)"
+SAN,KSAN,32.73,-117.2,32.73,-117.2,0.5155,US/Pacific,"(16, 7)"

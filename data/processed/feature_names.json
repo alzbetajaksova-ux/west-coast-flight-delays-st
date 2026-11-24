@@ -1,0 +1,82 @@
+{
+  "nodes": [
+    "SEA",
+    "PDX",
+    "SFO",
+    "SJC",
+    "LAX",
+    "SAN"
+  ],
+  "features": [
+    "wc_jasno",
+    "wc_dazd_slaby",
+    "wc_dazd_silny",
+    "wc_hmla",
+    "wc_sneh",
+    "severity",
+    "precip_in",
+    "weather_active_frac",
+    "hours_since_event",
+    "n_sched",
+    "y_lag",
+    "y_valid",
+    "del15_share",
+    "cancel_share",
+    "n_arr",
+    "arr_delay_mean",
+    "hod_sin",
+    "hod_cos",
+    "dow_sin",
+    "dow_cos",
+    "doy_sin",
+    "doy_cos"
+  ],
+  "normalized": [
+    "severity",
+    "precip_in",
+    "weather_active_frac",
+    "hours_since_event",
+    "n_sched",
+    "y_lag",
+    "del15_share",
+    "cancel_share",
+    "n_arr",
+    "arr_delay_mean"
+  ],
+  "masked_by": {
+    "y_lag": "y_valid",
+    "del15_share": "y_valid",
+    "arr_delay_mean": "n_arr"
+  },
+  "weather_categories": [
+    "Jasno",
+    "Dážď slabý",
+    "Dážď stredný/silný",
+    "Hmla",
+    "Sneh"
+  ],
+  "shapes": {
+    "X_nodes": [
+      8760,
+      6,
+      22
+    ],
+    "Y": [
+      8760,
+      6
+    ],
+    "mask": [
+      8760,
+      6
+    ],
+    "weather_cat": [
+      8760,
+      6
+    ]
+  },
+  "notes": [
+    "X_nodes je nenormalizovaný; normalizuje WindowDataset podľa scaler.json.",
+    "y_lag/del15_share sú 0 tam, kde y_valid = 0; arr_delay_mean je 0, kde n_arr = 0.",
+    "Čas = koniec plánovanej hodiny odletu (CRSDepTime) v UTC; hodina t pokrýva [t, t+1)."
+  ]
+}

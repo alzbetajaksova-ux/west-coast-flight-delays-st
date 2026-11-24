@@ -1,0 +1,23 @@
+{
+  "events_6_total": 16761,
+  "events_6_2018": 2143,
+  "events_6_negative_duration": 0,
+  "region_stations": 227,
+  "region_events_total": 803177,
+  "region_rule": "lat in [32, 49), lon in [-125, -116) – polootvorené intervaly mriežky 17x9",
+  "hours_per_category_2018_all": {
+    "Jasno": 46674,
+    "Dážď slabý": 3379,
+    "Dážď stredný/silný": 376,
+    "Hmla": 2062,
+    "Sneh": 69
+  },
+  "hours_with_event_share_2018": {
+    "LAX": 0.1006,
+    "PDX": 0.1669,
+    "SAN": 0.0478,
+    "SEA": 0.186,
+    "SFO": 0.0715,
+    "SJC": 0.1006
+  }
+}

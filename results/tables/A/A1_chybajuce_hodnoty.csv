@@ -1,0 +1,11 @@
+stĺpec,chýba,podiel,z toho zrušené
+Tail_Number,664,0.000891,664
+DepDelay,6484,0.008701,6484
+DepDel15,6484,0.008701,6484
+ArrDelay,8544,0.01146,6694
+CancellationCode,738532,0.991,0
+CarrierDelay,611561,0.8206,6694
+WeatherDelay,611561,0.8206,6694
+NASDelay,611561,0.8206,6694
+SecurityDelay,611561,0.8206,6694
+LateAircraftDelay,611561,0.8206,6694

@@ -1,0 +1,24 @@
+štatistika,hodnota
+n,7.387e+05
+priemer,8.097
+smer. odchýlka,37.88
+medián,-2
+šikmosť,9.83
+špicatosť (excess),191.8
+min,-49
+max,1527
+podiel < 0 (skôr),0.6032
+podiel > 15 min,0.1685
+podiel > 60 min,0.05159
+podiel > 180 min,0.007203
+podiel > 360 min (orezané),0.001264
+podiel minút z letov > 60 min,0.5736
+kvantil 0.01,-14
+kvantil 0.05,-10
+kvantil 0.25,-6
+kvantil 0.5,-2
+kvantil 0.75,6
+kvantil 0.9,32
+kvantil 0.95,62
+kvantil 0.99,157
+kvantil 0.999,402.3

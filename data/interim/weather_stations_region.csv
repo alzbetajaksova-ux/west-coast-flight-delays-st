@@ -1,0 +1,228 @@
+AirportCode,LocationLat,LocationLng,grid_row,grid_col,City,State,TimeZone,is_node
+K1YT,46.6667,-120.45,2,4,Yakima,WA,US/Pacific,False
+K3A6,34.3667,-118.5667,14,6,Stevenson Ranch,CA,US/Pacific,False
+K65S,48.726,-116.295,0,8,Bonners Ferry,ID,US/Pacific,False
+K87Q,35.6656,-121.2847,13,3,San Simeon,CA,US/Pacific,False
+K9L2,34.9908,-117.8631,14,7,Edwards,CA,US/Pacific,False
+KAAT,41.4836,-120.5615,7,4,Alturas,CA,US/Pacific,False
+KACV,40.9785,-124.1048,8,0,McKinleyville,CA,US/Pacific,False
+KAJO,33.8977,-117.6024,15,7,Corona,CA,US/Pacific,False
+KALW,46.0946,-118.2858,2,6,Walla Walla,WA,US/Pacific,False
+KAPC,38.2132,-122.2807,10,2,Napa,CA,US/Pacific,False
+KAST,46.1569,-123.8825,2,1,Warrenton,OR,US/Pacific,False
+KAUN,38.9554,-121.0864,10,3,Auburn,CA,US/Pacific,False
+KAWO,48.1585,-122.1591,0,2,Arlington,WA,US/Pacific,False
+KB23,40.6,-116.8667,8,8,Battle Mountain,NV,US/Pacific,False
+KBAB,39.1361,-121.4366,9,3,Beale AFB,CA,US/Pacific,False
+KBAN,38.3557,-119.5188,10,5,Coleville,CA,US/Pacific,False
+KBDN,44.095,-121.2,4,3,Bend,OR,US/Pacific,False
+KBFI,47.5455,-122.3147,1,2,Seattle,WA,US/Pacific,False
+KBFL,35.4344,-119.0542,13,5,Bakersfield,CA,US/Pacific,False
+KBIH,37.3711,-118.3581,11,6,Bishop,CA,US/Pacific,False
+KBKE,44.843,-117.8099,4,7,Baker City,OR,US/Pacific,False
+KBLI,48.7991,-122.5406,0,2,Bellingham,WA,US/Pacific,False
+KBLU,39.275,-120.7097,9,4,Alta,CA,US/Pacific,False
+KBNO,43.5949,-118.9579,5,6,Burns,OR,US/Pacific,False
+KBOI,43.567,-116.2405,5,8,Boise,ID,US/Mountain,False
+KBOK,42.0744,-124.29,6,0,Brookings,OR,US/Pacific,False
+KBUO,33.9333,-116.9667,15,8,Beaumont,CA,US/Pacific,False
+KBUR,34.1997,-118.3654,14,6,Burbank,CA,US/Pacific,False
+KBVS,48.4709,-122.4209,0,2,Burlington,WA,US/Pacific,False
+KBYS,35.2805,-116.63,13,8,Fort Irwin,CA,US/Pacific,False
+KCCR,37.9917,-122.0519,11,2,Concord,CA,US/Pacific,False
+KCEC,41.7837,-124.238,7,0,Crescent City,CA,US/Pacific,False
+KCIC,39.7988,-121.858,9,3,Chico,CA,US/Pacific,False
+KCLM,48.1219,-123.5066,0,1,Port Angeles,WA,US/Pacific,False
+KCLS,46.677,-122.9827,2,2,Chehalis,WA,US/Pacific,False
+KCMA,34.2119,-119.0916,14,5,Camarillo,CA,US/Pacific,False
+KCNO,33.9753,-117.6361,15,7,Ontario,CA,US/Pacific,False
+KCOE,47.7743,-116.8196,1,8,Coeur d'Alene,ID,US/Pacific,False
+KCQT,34.0235,-118.2912,14,6,Los Angeles,CA,US/Pacific,False
+KCQV,48.55,-117.8833,0,7,Colville,WA,US/Pacific,False
+KCRQ,33.1283,-117.2801,15,7,Oceanside-Escondido,CA,US/Pacific,False
+KCVH,36.8933,-121.4103,12,3,Hollister,CA,US/Pacific,False
+KCVO,44.4971,-123.2895,4,1,Corvallis,OR,US/Pacific,False
+KCXP,39.1906,-119.7319,9,5,Carson City,NV,US/Pacific,False
+KCZK,45.6769,-121.8789,3,3,Cascade Locks,OR,US/Pacific,False
+KCZZ,32.6261,-116.4683,16,8,Campo,CA,US/Pacific,False
+KDAG,34.8536,-116.7858,14,8,Daggett,CA,US/Pacific,False
+KDEW,47.9689,-117.4211,1,7,Deer Park,WA,US/Pacific,False
+KDLS,45.619,-121.1657,3,3,Dallesport,WA,US/Pacific,False
+KDRA,36.6207,-116.0287,12,8,Amargosa Valley,NV,US/Pacific,False
+KDVO,38.1418,-122.5546,10,2,Novato,CA,US/Pacific,False
+KE16,37.0816,-121.5968,11,3,San Martin,CA,US/Pacific,False
+KEAT,47.3975,-120.2012,1,4,East Wenatchee,WA,US/Pacific,False
+KEDU,38.5315,-121.7865,10,3,Davis,CA,US/Pacific,False
+KEDW,34.9054,-117.8837,14,7,Edwards,CA,US/Pacific,False
+KEKA,40.8034,-124.1128,8,0,Eureka,CA,US/Pacific,False
+KELN,47.0338,-120.5313,1,4,Northeast Kittitas,WA,US/Pacific,False
+KEMT,34.086,-118.0348,14,6,El Monte,CA,US/Pacific,False
+KEPH,47.3076,-119.5159,1,5,Ephrata,WA,US/Pacific,False
+KEUG,44.1246,-123.212,4,1,Eugene,OR,US/Pacific,False
+KEUL,43.6405,-116.6302,5,8,Caldwell,ID,US/Mountain,False
+KF70,33.5742,-117.1285,15,7,Murrieta,CA,US/Pacific,False
+KFAT,36.78,-119.7194,12,5,Fresno,CA,US/Pacific,False
+KFHR,48.52,-123.0264,0,1,Friday Harbor,WA,US/Pacific,False
+KFOT,40.553,-124.1334,8,0,Fortuna,CA,US/Pacific,False
+KFUL,33.872,-117.9798,15,7,Fullerton,CA,US/Pacific,False
+KGCD,44.4029,-118.9672,4,6,John Day,OR,US/Pacific,False
+KGEG,47.6214,-117.5278,1,7,Spokane,WA,US/Pacific,False
+KGIC,45.9411,-116.1326,3,8,Grangeville,ID,US/Pacific,False
+KGOO,39.224,-121.003,9,3,Grass Valley,CA,US/Pacific,False
+KGRF,47.0792,-122.5808,1,2,Tacoma,WA,US/Pacific,False
+KGXA,34.5666,-117.6704,14,7,Palmdale,CA,US/Pacific,False
+KHAF,37.5136,-122.4996,11,2,Half Moon Bay,CA,US/Pacific,False
+KHHR,33.9228,-118.3352,15,6,Hawthorne,CA,US/Pacific,False
+KHIO,45.5476,-122.9557,3,2,Hillsboro,OR,US/Pacific,False
+KHJO,36.3115,-119.6231,12,5,Hanford,CA,US/Pacific,False
+KHMS,46.5667,-119.6,2,5,Hanford Site,WA,US/Pacific,False
+KHQM,46.9727,-123.9302,2,1,Hoquiam,WA,US/Pacific,False
+KHRI,45.8258,-119.2611,3,5,Hermiston,OR,US/Pacific,False
+KHWD,37.6589,-122.1211,11,2,Hayward,CA,US/Pacific,False
+KIYK,35.6588,-117.8295,13,7,East Kern,CA,US/Pacific,False
+KIZA,34.6069,-120.0756,14,4,Santa Ynez,CA,US/Pacific,False
+KJNW,44.5833,-124.0667,4,0,South Beach,OR,US/Pacific,False
+KKLS,46.1155,-122.8927,2,2,Kelso,WA,US/Pacific,False
+KL35,34.2638,-116.856,14,8,Big Bear City,CA,US/Pacific,False
+KLAX,33.9382,-118.3865,15,6,Los Angeles,CA,US/Pacific,True
+KLGB,33.8118,-118.1472,15,6,Long Beach,CA,US/Pacific,False
+KLGD,45.2907,-118.0088,3,6,La Grande,OR,US/Pacific,False
+KLHM,38.9092,-121.3513,10,3,Lincoln,CA,US/Pacific,False
+KLKV,42.1566,-120.3972,6,4,Lakeview,OR,US/Pacific,False
+KLMT,42.147,-121.7255,6,3,Klamath Falls,OR,US/Pacific,False
+KLOL,40.0684,-118.5702,8,6,Lovelock,NV,US/Pacific,False
+KLPC,34.6656,-120.4675,14,4,Lompoc,CA,US/Pacific,False
+KLVK,37.6928,-121.8144,11,3,Livermore-Pleasanton,CA,US/Pacific,False
+KLWS,46.3745,-117.0154,2,7,Lewiston,ID,US/Pacific,False
+KMAE,36.9851,-120.1106,12,4,Madera,CA,US/Pacific,False
+KMAN,43.5813,-116.5231,5,8,Nampa,ID,US/Mountain,False
+KMCC,38.6676,-121.4006,10,3,McClellan,CA,US/Pacific,False
+KMCE,37.2848,-120.5139,11,4,Merced,CA,US/Pacific,False
+KMEH,45.5118,-118.4247,3,6,Meacham,OR,US/Pacific,False
+KMER,37.3805,-120.5682,11,4,Atwater,CA,US/Pacific,False
+KMFR,42.375,-122.877,6,2,Medford,OR,US/Pacific,False
+KMHR,38.56,-121.284,10,3,Rancho Cordova,CA,US/Pacific,False
+KMHS,41.3149,-122.317,7,2,Mount Shasta,CA,US/Pacific,False
+KMHV,35.0594,-118.1519,13,6,Mojave,CA,US/Pacific,False
+KMMH,37.624,-118.838,11,6,Mammoth Lakes,CA,US/Pacific,False
+KMMV,45.1945,-123.1361,3,1,McMinnville,OR,US/Pacific,False
+KMOD,37.6255,-120.9549,11,4,Modesto,CA,US/Pacific,False
+KMRY,36.5905,-121.8487,12,3,Monterey,CA,US/Pacific,False
+KMTR,36.6005,-121.8714,12,3,Monterey,CA,US/Mountain,False
+KMWH,47.193,-119.3145,1,5,Moses Lake,WA,US/Pacific,False
+KMYF,32.8157,-117.1396,16,7,San Diego,CA,US/Pacific,False
+KMYL,44.8942,-116.0998,4,8,McCall,ID,US/Mountain,False
+KMYV,39.1021,-121.5688,9,3,Olivehurst,CA,US/Pacific,False
+KNFG,33.3013,-117.3551,15,7,Camp Pendleton,CA,US/Pacific,False
+KNFL,39.4166,-118.701,9,6,Fallon,NV,US/Pacific,False
+KNID,35.6854,-117.692,13,7,Ridgecrest,CA,US/Pacific,False
+KNKX,32.8645,-117.1366,16,7,San Diego,CA,US/Pacific,False
+KNLC,36.3024,-119.9397,12,5,Lemoore,CA,US/Pacific,False
+KNRS,32.563,-117.1109,16,7,Imperial Beach,CA,US/Pacific,False
+KNSI,33.2338,-119.4559,15,5,,CA,US/Pacific,False
+KNUQ,37.4059,-122.049,11,2,Mountain View,CA,US/Pacific,False
+KNUW,48.3552,-122.6635,0,2,Oak Harbor,WA,US/Pacific,False
+KNXF,33.286,-117.456,15,7,Camp Pendleton,CA,US/Pacific,False
+KNXP,34.294,-116.1472,14,8,Twentynine Palms,CA,US/Pacific,False
+KNZY,32.6922,-117.2098,16,7,San Diego,CA,US/Pacific,False
+KO22,38.0304,-120.4146,10,4,Columbia,CA,US/Pacific,False
+KO54,40.746,-122.9223,8,2,Weaverville,CA,US/Pacific,False
+KO69,38.2578,-122.6053,10,2,Petaluma,CA,US/Pacific,False
+KO86,40.9845,-122.6934,8,2,Weaverville,CA,US/Pacific,False
+KO87,40.0167,-124.0667,8,0,Whitethorn,CA,US/Pacific,False
+KOAK,37.7178,-122.2329,11,2,Oakland,CA,US/Pacific,False
+KOKB,33.2194,-117.3494,15,7,Oceanside,CA,US/Pacific,False
+KOKH,48.2515,-122.6737,0,2,Oak Harbor,WA,US/Pacific,False
+KOLM,46.9733,-122.9033,2,2,Tumwater,WA,US/Pacific,False
+KOMK,48.4612,-119.5209,0,5,Riverside,WA,US/Pacific,False
+KONO,44.0142,-117.0081,4,7,Ontario,OR,US/Mountain,False
+KONP,44.5804,-124.0579,4,0,South Beach,OR,US/Pacific,False
+KONT,34.0532,-117.5768,14,7,Ontario,CA,US/Pacific,False
+KORS,48.7081,-122.909,0,2,Eastsound,WA,US/Pacific,False
+KOTH,43.4195,-124.2437,5,0,North Bend,OR,US/Pacific,False
+KOVE,39.4944,-121.6222,9,3,Oroville,CA,US/Pacific,False
+KOXR,34.2001,-119.2041,14,5,Oxnard,CA,US/Pacific,False
+KP68,39.6014,-116.0056,9,8,Eureka,NV,US/Pacific,False
+KPAE,47.9233,-122.2831,1,2,Mukilteo,WA,US/Pacific,False
+KPAO,37.4611,-122.1151,11,2,Palo Alto,CA,US/Pacific,False
+KPDT,45.6976,-118.8344,3,6,Pendleton,OR,US/Pacific,False
+KPDX,45.5958,-122.6092,3,2,Portland,OR,US/Pacific,True
+KPLU,47.1039,-122.2872,1,2,Puyallup,WA,US/Pacific,False
+KPMD,34.6294,-118.0831,14,6,Palmdale,CA,US/Pacific,False
+KPOC,34.0928,-117.7794,14,7,La Verne,CA,US/Pacific,False
+KPRB,35.6694,-120.6291,13,4,Paso Robles,CA,US/Pacific,False
+KPSC,46.2696,-119.1181,2,5,Pasco,WA,US/Pacific,False
+KPSP,33.8222,-116.5043,15,8,Palm Springs,CA,US/Pacific,False
+KPTV,36.0296,-119.0627,12,5,Porterville,CA,US/Pacific,False
+KPUW,46.7438,-117.1158,2,7,Pullman,WA,US/Pacific,False
+KPVF,38.7242,-120.7533,10,4,Placerville,CA,US/Pacific,False
+KPWT,47.4903,-122.7648,1,2,Port Orchard,WA,US/Pacific,False
+KRAL,33.953,-117.4349,15,7,Riverside,CA,US/Pacific,False
+KRBG,43.2337,-123.3577,5,1,Roseburg,OR,US/Pacific,False
+KRBL,40.1519,-122.2548,8,2,Red Bluff,CA,US/Pacific,False
+KRDD,40.5146,-122.2977,8,2,Redding,CA,US/Pacific,False
+KRDM,44.2559,-121.1406,4,3,Redmond,OR,US/Pacific,False
+KREO,42.5902,-117.8646,6,7,Jordan Valley,OR,US/Pacific,False
+KRHV,37.3329,-121.8198,11,3,San Jose,CA,US/Pacific,False
+KRIV,33.9,-117.25,15,7,March Air Reserve Base,CA,US/Pacific,False
+KRNM,33.0375,-116.9158,15,8,Ramona,CA,US/Pacific,False
+KRNO,39.5078,-119.7682,9,5,Reno,NV,US/Pacific,False
+KRNT,47.4951,-122.2144,1,2,Renton,WA,US/Pacific,False
+KRTS,39.6682,-119.8764,9,5,Reno,NV,US/Pacific,False
+KS47,45.4175,-123.8087,3,1,Tillamook,OR,US/Pacific,False
+KSAC,38.5067,-121.496,10,3,Sacramento,CA,US/Pacific,False
+KSAN,32.7339,-117.1845,16,7,San Diego,CA,US/Pacific,True
+KSBA,34.4241,-119.8425,14,5,Goleta,CA,US/Pacific,False
+KSBD,34.0903,-117.2471,14,7,San Bernardino,CA,US/Pacific,False
+KSBP,35.2368,-120.642,13,4,San Luis Obispo,CA,US/Pacific,False
+KSCK,37.89,-121.2264,11,3,Stockton,CA,US/Pacific,False
+KSDB,34.7434,-118.7253,14,6,Lebec,CA,US/Pacific,False
+KSDM,32.5723,-116.9802,16,8,San Diego,CA,US/Pacific,False
+KSEA,47.4447,-122.3144,1,2,Seattle,WA,US/Pacific,True
+KSEE,32.8274,-116.9737,16,8,El Cajon,CA,US/Pacific,False
+KSFF,47.6828,-117.3226,1,7,Spokane,WA,US/Pacific,False
+KSFO,37.6196,-122.3656,11,2,San Francisco,CA,US/Pacific,True
+KSHN,47.2381,-123.1408,1,1,Shelton,WA,US/Pacific,False
+KSIY,41.7737,-122.4682,7,2,Montague,CA,US/Pacific,False
+KSJC,37.3594,-121.9244,11,3,San Jose,CA,US/Pacific,True
+KSKA,47.6151,-117.6558,1,7,Fairchild Air Force Base,WA,US/Pacific,False
+KSLE,44.9049,-123.001,4,1,Salem,OR,US/Pacific,False
+KSLI,33.7963,-118.0418,15,6,Los Alamitos,CA,US/Pacific,False
+KSMF,38.7007,-121.5948,10,3,Sacramento,CA,US/Pacific,False
+KSMO,34.021,-118.4471,14,6,Santa Monica,CA,US/Pacific,False
+KSMP,47.2765,-121.3382,1,3,Enumclaw,WA,US/Pacific,False
+KSMX,34.8941,-120.4521,14,4,Santa Maria,CA,US/Pacific,False
+KSNA,33.6798,-117.8674,15,7,Costa Mesa,CA,US/Pacific,False
+KSNS,36.6636,-121.6081,12,3,Salinas,CA,US/Pacific,False
+KSPB,45.7691,-122.8637,3,2,Scappoose,OR,US/Pacific,False
+KSQL,37.5119,-122.2483,11,2,San Carlos,CA,US/Pacific,False
+KSTS,38.5037,-122.811,10,2,Windsor,CA,US/Pacific,False
+KSUU,38.2667,-121.95,10,3,Travis Afb,CA,US/Pacific,False
+KSXT,42.6,-123.3656,6,1,Wolf Creek,OR,US/Pacific,False
+KSZT,48.2994,-116.56,0,8,Sandpoint,ID,US/Pacific,False
+KTCM,47.1377,-122.4765,1,2,McChord AFB,WA,US/Pacific,False
+KTDO,46.4772,-122.8065,2,2,Toledo,WA,US/Pacific,False
+KTIW,47.2675,-122.5761,1,2,Gig Harbor,WA,US/Pacific,False
+KTMK,45.421,-123.8144,3,1,Tillamook,OR,US/Mountain,False
+KTOA,33.8034,-118.3396,15,6,Torrance,CA,US/Pacific,False
+KTPH,38.0505,-117.0904,10,7,Tonopah,NV,US/Pacific,False
+KTRK,39.32,-120.1396,9,4,Truckee,CA,US/Pacific,False
+KTRM,33.6267,-116.1594,15,8,Thermal,CA,US/Pacific,False
+KTSP,35.135,-118.4392,13,6,Tehachapi,CA,US/Pacific,False
+KTTD,45.5511,-122.4089,3,2,Troutdale,OR,US/Pacific,False
+KTVL,38.8984,-119.9962,10,5,South Lake Tahoe,CA,US/Pacific,False
+KU31,39.5,-117.0833,9,7,Austin,NV,US/Pacific,False
+KUAO,45.2466,-122.7709,3,2,Aurora,OR,US/Pacific,False
+KUIL,47.9375,-124.555,1,0,Forks,WA,US/Pacific,False
+KUKI,39.1278,-123.2001,9,1,Ukiah,CA,US/Pacific,False
+KVCB,38.3775,-121.9585,10,3,Vacaville,CA,US/Pacific,False
+KVCV,34.5975,-117.383,14,7,Victorville,CA,US/Pacific,False
+KVIS,36.3135,-119.3884,12,5,Visalia,CA,US/Pacific,False
+KVNY,34.2156,-118.4917,14,6,Van Nuys,CA,US/Pacific,False
+KVUO,45.621,-122.6542,3,2,Vancouver,WA,US/Pacific,False
+KWHP,34.2593,-118.4134,14,6,Pacoima,CA,US/Pacific,False
+KWJF,34.7412,-118.2125,14,6,Lancaster,CA,US/Pacific,False
+KWMC,40.9018,-117.8082,8,7,Winnemucca,NV,US/Pacific,False
+KWVI,36.9394,-121.79,12,3,Freedom,CA,US/Pacific,False
+KXVW,34.7275,-120.5783,14,4,Lompoc,CA,US/Pacific,False
+KYKM,46.564,-120.5348,2,4,Yakima,WA,US/Pacific,False

@@ -1,0 +1,44 @@
+{
+  "nodes": [
+    "SEA",
+    "PDX",
+    "SFO",
+    "SJC",
+    "LAX",
+    "SAN"
+  ],
+  "cells": {
+    "SEA": [
+      1,
+      2
+    ],
+    "PDX": [
+      3,
+      2
+    ],
+    "SFO": [
+      11,
+      2
+    ],
+    "SJC": [
+      11,
+      3
+    ],
+    "LAX": [
+      15,
+      6
+    ],
+    "SAN": [
+      16,
+      7
+    ]
+  },
+  "grid": {
+    "lat_min": 32,
+    "lat_max": 49,
+    "lon_min": -125,
+    "lon_max": -116,
+    "cell_deg": 1.0
+  },
+  "note": "riadok 0 = sever (49° N), stĺpec 0 = západ (125° W); bunka 1° × 1°, polootvorené intervaly"
+}
